@@ -42,3 +42,13 @@ nav {
 .hero--text {
   margin-top: 0;
 }
+
+.card {
+  width: 175px;
+  font-size: 12px;
+}
+
+.card--img {
+  width: 100%;
+  border-radius: 9px;
+}
