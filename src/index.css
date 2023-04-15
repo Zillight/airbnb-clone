@@ -52,3 +52,17 @@ nav {
   width: 100%;
   border-radius: 9px;
 }
+
+.card--stats{
+  display: flex;
+  align-items: center;
+  color: #918E9B;
+}
+
+.card--star{
+  height: 14px;
+}
+
+.card--text span{
+  font-weight: bold;
+}

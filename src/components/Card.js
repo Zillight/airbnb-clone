@@ -4,11 +4,12 @@ export default function Card(props) {
     return(
         <div className="card">
             <img src={require("../images/katie-zaferes.png")} alt="athlete" className="card--img"/>
-            <div>
+            <div className="card--stats">
                 <img src={require("../images/star.png")} alt="rating-star" className="card--star"/>
-                <span>(6) • USA</span>
+                <span>(6) •</span>
+                <span>USA</span>
             </div>
-            <div>
+            <div className="card--text">
                 <p>Life lessons with Katie Zaferes</p>
                 <p><span>from $136</span> / person</p>
             </div>
