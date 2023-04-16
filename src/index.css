@@ -46,6 +46,7 @@ nav {
 .card {
   width: 175px;
   font-size: 12px;
+  margin: 10px;
 }
 
 .card--img {
@@ -66,3 +67,6 @@ nav {
 .card--text span{
   font-weight: bold;
 }
+ .app--card {
+  display: flex;
+ }

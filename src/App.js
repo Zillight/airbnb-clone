@@ -10,7 +10,11 @@ function App() {
     <div>
       <Navbar />
       <Hero />
-      <Card />
+      <div className="app--card">
+        <Card />
+        <Card />
+        <Card />
+      </div>
     </div>
   );
 }

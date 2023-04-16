@@ -18,11 +18,6 @@ export default function Card(props) {
 }
 
 
-
-
-
-
-
 // return(
 //     <div>
 //         <img src={require(`../images/`)} alt="" />
