@@ -6,7 +6,7 @@ export default function Card(props) {
             <img src={props.coverImg} alt="athlete" className="card--img"/>
             <div className="card--stats">
                 <img src={require("../images/star.png")} alt="rating-star" className="card--star"/>
-                <span>(6) •</span>
+                <span>({props.rating}) •</span>
                 <span>USA</span>
             </div>
             <div className="card--text">
