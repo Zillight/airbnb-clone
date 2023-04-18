@@ -16,6 +16,7 @@ function App() {
           rating="6"
           location="USA"
           price="136"
+          title="Life lessons with Katie Zaferes"
         />
       </div>
     </div>
