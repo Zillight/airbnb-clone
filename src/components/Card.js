@@ -11,7 +11,7 @@ export default function Card(props) {
             </div>
             <div className="card--text">
                 <p>Life lessons with Katie Zaferes</p>
-                <p><span>from $136</span> / person</p>
+                <p><span>from ${props.price}</span> / person</p>
             </div>
         </div>
     )

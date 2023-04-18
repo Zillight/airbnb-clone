@@ -15,7 +15,7 @@ function App() {
           coverImg="katie-zaferes.png"
           rating="6"
           location="USA"
-
+          price="136"
         />
       </div>
     </div>
