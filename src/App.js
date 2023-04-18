@@ -11,9 +11,10 @@ function App() {
       <Navbar />
       <Hero />
       <div className="app--card">
-        <Card />
-        <Card />
-        <Card />
+        <Card 
+          coverImg="../images/katie-zaferes.png"
+
+        />
       </div>
     </div>
   );
