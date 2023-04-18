@@ -12,7 +12,7 @@ function App() {
       <Hero />
       <div className="app--card">
         <Card 
-          coverImg="katie-zaferes.png"
+          coverImg="{require("../images/katie-zaferes.png")}"
           rating="6"
           location="USA"
           price="136"
