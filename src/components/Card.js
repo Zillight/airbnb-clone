@@ -3,11 +3,11 @@ import React from "react"
 export default function Card(props) {
     return(
         <div className="card">
-            <img src={props.coverImg} alt="athlete" className="card--img"/>
+            <img src="../images/{props.coverImg}" alt="athlete" className="card--img"/>
             <div className="card--stats">
                 <img src={require("../images/star.png")} alt="rating-star" className="card--star"/>
                 <span>({props.rating}) •</span>
-                <span>USA</span>
+                <span>{props.location}</span>
             </div>
             <div className="card--text">
                 <p>Life lessons with Katie Zaferes</p>
