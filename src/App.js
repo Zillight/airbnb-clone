@@ -16,10 +16,24 @@ function App() {
       <div className="app--card">
         <Card 
           coverImg="katie-zaferes.png"
-          rating="6"
+          rating="5.0"
           location="USA"
           price="136"
           title="Life lessons with Katie Zaferes"
+        />
+        <Card 
+          coverImg="wedding-photography.png"
+          rating="5.0"
+          location="Online"
+          price="125"
+          title="Learn Wedding Photography"
+        />
+        <Card 
+          coverImg="mountain-bike.png"
+          rating="4.8"
+          location="Norway"
+          price="50"
+          title="Group Mountain Biking"
         />
       </div>
     </div>
